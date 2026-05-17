@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.background-image{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    /* opacity: 0.55; */
+}
+
+.logo{
+    text-align: center;
+    font-family: cursive;
+    color:rgb(67, 169, 236);
+    font-size: 55px;
+    margin-top: -650px;
+}
+.container{
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+}
+.image1{
+    align-content: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 120px;
+}
+.logo2{
+    text-align: center;
+    margin-top: 200px;
+    color: rgb(67, 169, 236) ;
+}
+
+.btn{
+    height: 40px;
+    width: 200px;
+    margin-left: 110px;
+    border: none;
+    outline: none;
+    background: red;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 20px;
+    text-transform: uppercase;
+    border-radius: 30px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.23);
+    background: linear-gradient(-90deg, #f5ce62, #e85a19);
+    transition: all 0.5s;
+    /* linear-gradient(-90deg, #0162c8, #55e7fc); */
+    /* linear-gradient(-90deg, #f5ce62, #e85a19); */
+}
+.btn:hover{
+    transform:scale(1.2);
+    color: black;
+}
+.gallery{
+    display: inline-block;
+    border: 1px solid hsl(0, 0%, 60%);
+    margin: 5px;
+    width: 200px;
+}
+.gallery .description{
+    padding: 10px;
+    text-align: center;
+}
+.gallery:hover{
+    border: 1px solid hsl(0, 0%, 20%);
+}
+.gallery img{
+    width: 100%;
+    height: auto;
+}
+.btn2{
+    height: 40px;
+    width: 200px;
+    margin-left: 110px;
+    border: none;
+    outline: none;
+    background: red;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 20px;
+    text-transform: uppercase;
+    border-radius: 30px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.23);
+    background: linear-gradient(90deg, #0162c8, #55e7fc);
+    transition: all 0.5s; 
+}
+.btn2:hover{
+    transform:scale(1.2);
+    color: black;
+}
+.btn2 a{
+    text-decoration: none;
+    color: white;
+}
+.btn2:hover a{
+    color: black;
+}
